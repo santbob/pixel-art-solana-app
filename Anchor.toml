@@ -1,0 +1,17 @@
+# [programs.localnet]
+# pixel_art_solana_app = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[programs.devnet]
+pixel_art_solana_app = "8jBNH5HbemwKZSyNfz1fGLqp4tRTotU6fK8G8swXnWdj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# cluster = "localnet"
+cluster = "devnet"
+wallet = "/Users/srao13/.config/solana/id.json"
+
+[scripts]
+#test = "mocha -t 1000000 tests/"
+test = "node tests/pixel-art-solana-app.js"
